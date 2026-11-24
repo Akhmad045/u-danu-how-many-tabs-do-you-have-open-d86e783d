@@ -13,7 +13,7 @@ says something about the life behind it without a word of explanation.
 import os
 from pathlib import Path
 
-COUNT = "1"
+COUNT = "1"  # exactly one byte in entry.txt: no trailing newline, no spaces
 
 
 def main() -> None:
